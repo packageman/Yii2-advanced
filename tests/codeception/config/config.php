@@ -14,6 +14,9 @@ return [
     'components' => [
         'db' => [
             'dsn' => 'mysql:host=localhost;dbname=yii2_advanced_tests',
+            'username' => 'root',
+            'password' => 'root',
+            'charset' => 'utf8',
         ],
         'mailer' => [
             'useFileTransport' => true,
